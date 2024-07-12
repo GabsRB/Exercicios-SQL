@@ -1,0 +1,16 @@
+create table funcionarios (
+  "Codigo" integer NOt Null,
+  "PrimeiroNome" varchar(50),
+  "SegundoNome" varchar(50),
+  "UltimoNome" varchar(50),
+  "DataNasci" date,
+  "CPF" varchar(9),
+  "Rg",
+  "Endenreco",
+  "CEP",
+  "Cidade",
+  "Fone",
+  ""
+  
+  PRIMARY key ("Codigo")
+  );
