@@ -14,3 +14,5 @@ create table funcionarios (
   
   PRIMARY key ("Codigo")
   );
+
+-- CONSTRAINT "fk_codFunciGeren" FOREIGN KEY ("codFuncio") REFERENCES "funcionario" ("codFuncio")
